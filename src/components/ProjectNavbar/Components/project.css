@@ -1,0 +1,8 @@
+.project-button{
+    margin-top: 14px;
+    background-color: #00ae7a;
+}
+
+.project-button:hover{
+    background-color: #24B47E;
+}

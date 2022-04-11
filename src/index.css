@@ -1,0 +1,19 @@
+@font-face {
+  font-family: Sansation;
+  src: url(/public/fonts/Sansation_Light.ttf);
+}
+
+* {
+  font-family: Sansation;
+}
+
+body {
+  margin: 0;
+  font-family: Sansation;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: Sansation;
+}

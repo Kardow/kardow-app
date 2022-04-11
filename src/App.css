@@ -1,0 +1,98 @@
+::-webkit-scrollbar {
+  width: 10px; /* width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #212121; /* color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #00ae7a; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid #212121; /* creates padding around scroll thumb */
+}
+
+::-webkit-scrollbar-corner {
+  background: #262626;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.avatar {
+  border: 2px solid #262626;
+  border-radius: 10px;
+  height: 120px;
+  width: 120px;
+}
+
+.avatar-image {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 15%;
+  left: 15%;
+}
+
+.container {
+  transform: scale(1.5);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.context-wrapper {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+.column-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dropbox {
+  padding: 10px;
+  width: 250px;
+  min-height: 500px;
+}
+.dragbox {
+  user-select: none;
+  padding: 15px;
+  margin: 0 0 10px 0;
+  min-height: 50px;
+  color: #fff;
+}

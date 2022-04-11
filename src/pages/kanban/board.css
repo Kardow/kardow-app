@@ -1,0 +1,40 @@
+.scroll {
+  /* enable div scrolling */
+  overflow-x: scroll;
+  overflow-y: scroll;
+  height: 83vh;
+  padding: 2%;
+  width: 100%;
+  margin: 0 auto;
+  white-space: nowrap;
+  font-size: large;
+}
+
+.users{
+  position: absolute;
+  right: 150px;
+  top: 13vh;
+  z-index: 150;
+}
+
+.add-user{
+  position: absolute;
+  right: 80px;
+  top: 13vh;
+}
+
+.add-users:hover{
+  cursor: pointer;
+}
+
+.owner{
+  position: relative;
+  z-index: -1;
+}
+
+.crown{
+  width: 10px;
+  position:absolute;
+  top: 1px;
+  
+}

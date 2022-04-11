@@ -1,0 +1,68 @@
+.border {
+  position: relative;
+  bottom: 6px;
+  width: 100%;
+  left: 0;
+  border-top: 2px solid #262626;
+}
+
+.task {
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+.task:hover {
+  transform: scale(1.01);
+  cursor: pointer;
+}
+
+/* Styling the grid system*/
+
+/* The full size modal*/
+.app-dialog {
+  background-color: #212121;
+}
+
+.grid-form {
+  background-color: transparent;
+  padding: 10px;
+  margin: 0;
+}
+
+.grid-project {
+  background-color: #212121;
+  margin-right: 10px;
+  width: 90%;
+}
+
+.grid-info {
+  background-color: #212121;
+  height: 80vh;
+  border-radius: 25px;
+  position: relative;
+}
+
+.textField {
+  border-radius: 0%;
+  width: 90vh;
+}
+
+.textarea {
+  width: 95%;
+  margin-left: 1vh;
+  background-color: #212121;
+  border-radius: 25px;
+  color: #fff;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.btnContainer {
+  position: relative;
+  bottom: 20px;
+  right: 20px;
+}
+
+.buttons {
+  position: absolute;
+}

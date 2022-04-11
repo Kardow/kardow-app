@@ -1,0 +1,26 @@
+
+
+  
+
+
+
+    .input-invite:focus-within{
+        border: 1px solid #00ae7a;
+        border-radius: 5px;
+    }
+
+    .mantine-Input-input{
+        border: none;
+    }
+
+      .MuiListItemText-secondary{
+      color: #fff;
+    }
+
+    .MuiListItemText-multiline{
+      color: #fff;
+    }
+
+    .MuiListItemText-secondary{
+      color: #fff;
+    }
